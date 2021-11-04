@@ -12,6 +12,11 @@ header{
     font-size: 13px;
     font-weight: bold;
     vertical-align: sub;
+    top: 0;
+    font-family: Helvetica;
+}
+body{
+    font-family: Arial;
 }
 .titolo{
     background-color: black;
@@ -54,3 +59,50 @@ nav .col-7 .box{
 
 /* END NAV */
 /* END HEADER / NAV */
+
+
+/* MAIN */
+/* JUMBO */
+main{
+    margin-top: 105px;
+}
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.returnal-img{
+    width: 270px;
+    margin-bottom: 40px;
+}
+#titolo-jumbo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+.paragrafo-jumbo{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+.btn_acquista_ora{
+    color: white;
+    background-color: orangered;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn_acquista_ora a{
+    color: white;
+    background-color: orangered;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.content-jumbo{
+    position: absolute;
+    bottom: 30px;
+}
+/* END MAIN */
