@@ -1,0 +1,56 @@
+/* RESET */
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+/* HEADER / NAV */
+header{
+    position: fixed;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: sub;
+}
+.titolo{
+    background-color: black;
+    padding: 10px;
+    height: 35px;
+}
+.sony{
+    width: 100px;
+    right: 10px;
+    position: absolute;
+}
+/* NAV */
+nav{
+    background-color: white;
+}
+.container-nav{
+    width: 95%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.centratura{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav li{
+    margin: 0 10px;
+}
+nav .col-7 .box{
+    display: flex;
+    justify-content: left;
+}
+
+/* END NAV */
+/* END HEADER / NAV */
