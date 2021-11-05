@@ -240,6 +240,100 @@ main{
 }
 .card-btn{
     border-radius: 30px;
+    margin-bottom: 40px;
 }
 /* END Card */
+
+/* PlayStation Plus */
+.playstation-plus-bk{
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.btn-plus{
+    background-color: #d9dadc;
+    color: #0072ce;
+    border: none;
+    border-radius: 20px;
+}
+.box-plus p{
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+/* Media per dare un margin top and bottom in modalità xs and sm  */
+@media (max-width: 768px) { 
+    ._col-plus{
+        margin: 30px 0;
+    }
+}
+/* END PlayStation Plus */
+/* Sconti */
+.box-sconti{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-sconti span{
+    font-weight: bold;
+    color: gray;
+}
+.box-scontii{
+    margin-bottom: 30px;
+}
+/* END Sconti */
+
+/* PlayStation now */
+.playstation-now-bk{
+    background-color: #161c3b;
+    margin-bottom: 20px;
+}
+.box-now p{
+    font-weight: bold;
+    margin: 30px 0;
+    color: white;
+}
+.btn-now{
+    background-color: #d9dadc;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+/* END PlayStation now */
+/* Social */
+.box-titolo-social{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0;
+}
+.box-social{
+    max-width: 250px;
+}
+/* END Social */
 /* END MAIN */
+
+/* Footer */
+.footer-bk{
+    background-color: #00439c;
+}
+.footer-row{
+    padding-top: 100px;
+}
+.box-footer-logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.box-footer-logo-2 span{
+    color: white;
+}
+.margin-logo-footer{
+    margin-bottom: 100px;
+}
+.footer-row li{
+    color: white;
+}
+.sony-footer{
+    width: 150px;
+}
+.footer-write p{
+    color: white;
+}
+/* END FOOTER */
