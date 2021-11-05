@@ -7,6 +7,7 @@ ul{
 }
 /* HEADER / NAV */
 header{
+    z-index: 1;
     position: fixed;
     width: 100%;
     font-size: 13px;
@@ -67,8 +68,8 @@ main{
     margin-top: 105px;
 }
 .jumbo{
+    position: relative;
     background-image: url(../img/jumbo-bg.png);
-    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +102,34 @@ main{
     text-decoration: none;
 }
 .content-jumbo{
-    position: absolute;
-    bottom: 30px;
+    padding-top: 250px;
+    padding-bottom: 30px;
+}
+/* lista giochi main */
+
+.img-list-container img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.box-row{
+    padding-top: 30px;
+}
+
+/* playstation testo */
+.box-play-text{
+    text-align: center;
+}
+.box-play-text :first-child{
+    font-weight: bold;
+    color: #0072ce;
+}
+.box-play-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.box-play-text :last-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
 }
 /* END MAIN */
