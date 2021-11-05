@@ -102,7 +102,7 @@ main{
     text-decoration: none;
 }
 .content-jumbo{
-    padding-top: 250px;
+    padding-top: 350px;
     padding-bottom: 30px;
 }
 /* lista giochi main */
@@ -118,6 +118,7 @@ main{
 /* playstation testo */
 .box-play-text{
     text-align: center;
+    margin-top: 100px;
 }
 .box-play-text :first-child{
     font-weight: bold;
@@ -132,4 +133,113 @@ main{
     font-weight: bold;
     color: gray;
 }
+/* testo 2 */
+.row-distance{
+    margin-top: 100px;
+}
+.box-play-text-2{
+    margin-top: 100px;
+}
+.box-play-text-2 h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    display: inline;
+}
+.box-play-text-2 span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+}
+.bottone{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+/* list tools ps5 */
+.selected-ps{
+    border-bottom: 3px solid #0072ce;
+}
+#tools-ps .col-4 .selected-ps{
+    padding-bottom: 25px;
+}
+#tools-ps span{
+    font-weight: bold;
+}
+#tools-ps{
+    text-align: center;
+}
+._filter{
+    opacity: 0.7;
+}
+
+/* middle jumbotron */
+.jumbo-mid{
+    margin-top: 35px;
+    position: relative;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content-jumbo-mid{
+    padding: 80px 0;
+}
+
+/* nuove uscite */
+.nuove-uscite-bk{
+    background-color: #1f1f1f;
+}
+.box-nuove-uscite-bk{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.nuove-uscite-bk h2{
+    color: white;
+}
+.nuove-uscite-bk h3{
+    color: white;
+}
+.box-novità{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.testo-novità{
+    color: white;
+    padding-top: 7px;
+    margin-bottom: 30px;
+}
+
+/* Ps4 section */
+.ps4-center-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.ps4-center-text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ps4-center-text p{
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
+/* Card */
+.card-border{
+    border: none;
+}
+.card-body h4{
+    font-weight: bold;
+
+}
+.card-body p{
+    font-weight: bold;
+    color: gray;
+}
+.card-btn{
+    border-radius: 30px;
+}
+/* END Card */
 /* END MAIN */
