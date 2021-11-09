@@ -57,6 +57,9 @@ nav .col-7 .box{
     display: flex;
     justify-content: left;
 }
+#logo-ps-list{
+    width: 60px;
+}
 
 /* END NAV */
 /* END HEADER / NAV */
@@ -73,6 +76,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-position-y: top;
 }
 .returnal-img{
     width: 270px;
